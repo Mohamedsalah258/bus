@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: bus
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD for local Docker use}
+      POSTGRES_DB: bus
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - bus_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bus -d bus"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  # Local mail catcher: nothing leaves the machine. Inbox: http://localhost:8025
+  mail:
+    image: axllent/mailpit:v1.27
+    ports:
+      - "127.0.0.1:1025:1025"
+      - "127.0.0.1:8025:8025"
+volumes:
+  bus_pg:

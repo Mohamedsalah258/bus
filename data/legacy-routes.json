@@ -1,0 +1,120 @@
+{
+  "source": "cars.bsu.edu.eg/ShowDirectionDetails, read 2026-10-09; corrections confirmed 2026-10-09",
+  "notes": [
+    "Stops are listed toward the university (OUTBOUND); RETURN trips use the same stops in reverse (confirmed).",
+    "capacity is null where the old site does not publish it; the seed uses a placeholder and staff set the real seats."
+  ],
+  "routes": [
+    {
+      "legacyId": 1,
+      "name": "الخط الغربي",
+      "stops": [
+        "جامعة القاهرة",
+        "المريوطية",
+        "الرماية",
+        "البوابة الأولى",
+        "البوابة الثانية",
+        "البوابة الثالثة",
+        "البوابة الرابعة",
+        "مدخل أكتوبر",
+        "جامعة بني سويف"
+      ],
+      "vehicle": {
+        "plate": "و ب أ 3624",
+        "capacity": null
+      },
+      "driver": {
+        "name": "مصطفى ليثي محمد الليثي",
+        "phone": "01271876984"
+      }
+    },
+    {
+      "legacyId": 2,
+      "name": "الخط الشرقي",
+      "stops": [
+        "النادي الأهلي",
+        "عباس العقاد",
+        "رابعة العدوية",
+        "سلم جامعة الأزهر",
+        "نادي السكة الحديد",
+        "منشية ناصر",
+        "صقر قريش",
+        "زهراء المعادي",
+        "المعصرة",
+        "حلوان",
+        "15 مايو",
+        "جامعة بني سويف"
+      ],
+      "vehicle": {
+        "plate": "و ب أ 3625",
+        "capacity": null
+      },
+      "driver": {
+        "name": "حسني حمد محمود محمد",
+        "phone": "01111664825"
+      }
+    },
+    {
+      "legacyId": 3,
+      "name": "الفيوم",
+      "stops": [
+        "ميدان المسلة",
+        "مستشفى الصدر",
+        "الدائري",
+        "دمو",
+        "جامعة بني سويف"
+      ],
+      "vehicle": {
+        "plate": "و ب أ 4368",
+        "capacity": null
+      },
+      "driver": {
+        "name": "خالد عبد الفتاح حسين محمد",
+        "phone": "01088031682"
+      }
+    },
+    {
+      "legacyId": 4,
+      "name": "المنيا",
+      "stops": [
+        "حي شلبي",
+        "عدنان المالكي",
+        "محطة القطار",
+        "مستشفى الجامعة",
+        "المنيا الجديدة",
+        "جامعة بني سويف"
+      ],
+      "vehicle": {
+        "plate": "و ب أ 4912",
+        "capacity": null
+      },
+      "driver": {
+        "name": "محمد مجدي فؤاد محمد",
+        "phone": "01120096250"
+      }
+    },
+    {
+      "legacyId": 10,
+      "name": "خط أكتوبر",
+      "stops": [
+        "جامعة القاهرة",
+        "الشيخ زايد",
+        "حي الأشجار",
+        "جهاز مدينة أكتوبر",
+        "وادي دجلة",
+        "الفردوس",
+        "البوابة الرابعة",
+        "مدخل أكتوبر",
+        "جامعة بني سويف"
+      ],
+      "vehicle": {
+        "plate": "و ب أ 5471",
+        "capacity": null
+      },
+      "driver": {
+        "name": "إبراهيم علي حسن فرغلي",
+        "phone": "01145675932"
+      }
+    }
+  ]
+}
